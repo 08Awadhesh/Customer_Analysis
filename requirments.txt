@@ -18,6 +18,7 @@ wincertstore
 xgboost
 neuro-mf
 boto3
-ipykernal
+ipykernel
 numpy 
 pandas
+-e .
