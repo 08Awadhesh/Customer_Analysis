@@ -1,7 +1,9 @@
 from setuptools import find_packages,setup
 
 from typing import List
+
 HYPEN_E_DOT="-e ."
+
 
 def get_requirments(file_path:str)->List[str]:
     requirements=[]
@@ -21,4 +23,4 @@ setup(
     aurthor_email="awadheshsarsanda@gamil.com",
     packages=find_packages(),
     install_requires=get_requirments('requirments.txt')
-    )
+)
